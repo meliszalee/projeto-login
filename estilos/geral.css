@@ -12,7 +12,7 @@
 
 :root{
     --cor1: #18343F;
-    --cor2: #DA4200;
+    --cor2: #e86932;
 }
 
 body, html{
@@ -74,4 +74,68 @@ main{
 
 #formulario p{
     font-size: 0.9em;
+}
+
+.campo{
+    background-color: var(--cor2);
+
+    height: 35px;
+    margin: 5px 0;
+
+    border-radius: 5px;
+}
+
+.campo:first-child{
+    margin-top: 20px;
+}
+
+.campo input{
+    width: calc(100% - 45.37px);
+    height: 100%;
+    padding: 5px;
+
+    transform: translateY(-8px);
+
+    border: 0px;
+    border-radius: 0px 3px 3px 0px;
+}
+
+.campo span{
+    font-size:1.8em;
+
+    padding: 3px 3px 3px 5px;
+    width: 41px;
+
+    color: white;
+
+}
+
+#entrar{
+    display: block;
+    margin: 20px auto 10px auto;
+    padding: 5px;
+
+    font-size: 1em;
+
+    width: 80%;
+
+    background-color: var(--cor1);
+    color: white;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+#entrar:hover{
+    background-color: #285668;
+}
+
+#esqueci_senha{
+    display: block;
+
+    text-decoration: none;
+    color: rgb(0, 0, 219);
+
+    text-align: center;
 }

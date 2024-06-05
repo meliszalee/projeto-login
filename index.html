@@ -28,23 +28,19 @@
                 <form action="login.php" method="post">
 
                     <div class="campo">
-                    
-                        <input type="email" name="login" id="ilogin" placeholder="E-mail" required autocomplete="email">
-                        <label for="ilogin">
-                            <span class="material-symbols-outlined">person</span>
+                        <label for="ilogin"><span class="material-symbols-outlined">person</span>
                         </label>
+                        <input type="email" name="login" id="ilogin" placeholder="E-mail" required autocomplete="email">
                     </div>
 
                     <div class="campo">
-                        
-                        <input type="password" name="senha" id="isenha" placeholder="********" required autocomplete="current-password" minlength="8" maxlength="20">
-                        <label for="isenha">
-                            <span class="material-symbols-outlined">vpn_key</span>
+                        <label for="isenha"><span class="material-symbols-outlined">vpn_key</span>
                         </label>
+                        <input type="password" name="senha" id="isenha" placeholder="********" required autocomplete="current-password" minlength="8" maxlength="20">
                     </div>
 
-                    <input type="submit" value="Entrar">
-                    <a href="esqueci.html">Esqueci a senha</a>
+                    <input type="submit" value="Entrar" id="entrar">
+                    <a href="esqueci.html" id="esqueci_senha">Esqueci a senha</a>
                 </form>
 
             </div>
